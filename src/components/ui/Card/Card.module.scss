@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 10px;
+  min-height: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+
+  .container {
+    top: 10px; /* Расстояние до верхнего края карточки */
+    left: 10px; /* Расстояние до левого края карточки */
+    right: 10px; /* Расстояние до правого края карточки */
+    bottom: 10px; /* Расстояние до нижнего края карточки */
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fffae5;
+    background-color: #ffffff;
+  }
+}
