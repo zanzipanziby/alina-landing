@@ -1,0 +1,10 @@
+.wrapper {
+  background: url("../../../../public/name-wrap.svg") center center no-repeat;
+  width: 191px;
+  height: 126px;
+  display: flex;
+  align-items: center;
+
+  font-family: 'Lora Variable', serif;
+  font-size: var(--card-title-text);
+}
