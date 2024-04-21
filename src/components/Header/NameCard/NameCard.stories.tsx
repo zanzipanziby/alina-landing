@@ -19,7 +19,7 @@ export const Default: Story = {
 			justifyContent: 'center',
 			alignItems: 'center',
 			flexDirection: 'column',
-			marginTop: "-20px"
+			marginTop: '-20px'
 		}}>
 			<span>Aля</span>
 			<span>Паланевич</span>
