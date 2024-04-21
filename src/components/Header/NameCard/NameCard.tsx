@@ -1,9 +1,9 @@
 import s from './NameCard.module.scss'
 import {ReactNode} from "react";
 
-export const NameCard = ({children}: Props) => {
+export const NameCard = ({children, className = ''}: Props) => {
 	return (
-		<div className={s.wrapper}>
+		<div className={`${s.wrapper} ${className}`}>
 			{children}
 		</div>
 	);
@@ -11,4 +11,5 @@ export const NameCard = ({children}: Props) => {
 
 type Props = {
 	children: ReactNode
+	className?: string,
 }

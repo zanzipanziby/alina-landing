@@ -1,0 +1,21 @@
+.header {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);;
+
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 20px 0;
+
+    .nameCard {
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      top: -10px;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+  }
+}

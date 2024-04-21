@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    color: var(--dark-color-300);
+    font-size: var(--description-text);
+    line-height: var(--line-height-normal);
+  }
+}
