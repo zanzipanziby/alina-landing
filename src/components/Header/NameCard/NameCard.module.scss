@@ -5,6 +5,6 @@
   display: flex;
   align-items: center;
 
-  font-family: 'Lora Variable', serif;
+  font-family: var(--ff-secondary);
   font-size: var(--card-title-text);
 }
